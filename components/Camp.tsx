@@ -19,7 +19,7 @@ const CampSite = ({
 }: CampProps) => {
   return (
     <div
-      className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-5xl 2xl:rounded-5xl`}
+      className={`h-[91%] sm:h-full w-full min-w-[500px] sm:min-w-[1100px] ${backgroundImage} bg-contain sm:bg-cover bg-no-repeat lg:rounded-5xl 2xl:rounded-5xl`}
     >
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
         <div className="flexCenter gap-4">
@@ -56,13 +56,13 @@ const Camp = () => {
 
   const scrollLeft = () => {
     if (scrollRef.current) {
-      scrollRef.current.scrollLeft -= 300; // You can adjust this value
+      scrollRef.current.scrollLeft -= 300;
     }
   };
 
   const scrollRight = () => {
     if (scrollRef.current) {
-      scrollRef.current.scrollLeft += 300; // You can adjust this value
+      scrollRef.current.scrollLeft += 300;
     }
   };
 
@@ -86,29 +86,29 @@ const Camp = () => {
         />
 
         {/* Left Arrow */}
-        <div className="absolute flex items-start mt-[190px] lg:items-center lg:mt-0 h-full left-0 top-0 z-50">
+        <div className="absolute flex items-start mt-[170px] sm:mt-[190px] lg:items-center lg:mt-0 h-full left-0 top-0 z-50">
           <button className="ml-10">
             <Image
-              src="/left-arrow.svg"
+              src="/left-chevron-svg.svg"
               alt="arrow-left"
-              width={30}
-              height={30}
+              width={50}
+              height={50}
               onClick={scrollLeft}
-              className="hover:cursor-pointer hover:bg-black hover:rounded-full"
+              className="hover:cursor-pointer hover:w-[60px] hover:h-[60px]"
             />
           </button>
         </div>
 
         {/* Right Arrow */}
-        <div className="absolute flex items-start mt-[190px] lg:items-center lg:mt-0 h-full right-0 top-0 z-50">
+        <div className="absolute flex items-start mt-[170px] sm:mt-[190px] lg:items-center lg:mt-0 h-full right-0 top-0 z-50">
           <button className="mr-10">
             <Image
-              src="/right-arrow.svg"
+              src="/right-chevron-svg.svg"
               alt="arrow-right"
-              width={30}
-              height={30}
+              width={50}
+              height={50}
               onClick={scrollRight}
-              className="hover:cursor-pointer hover:bg-black hover:rounded-full"
+              className="hover:cursor-pointer hover:w-[60px] hover:h-[60px]"
             />
           </button>
         </div>
