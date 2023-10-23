@@ -84,6 +84,18 @@ const Camp = () => {
           subtitle="Some where in the wild"
           peopleJoined="50+ Joined"
         />
+        <CampSite
+          backgroundImage="bg-bg-img-3"
+          title="Texas Camp Site"
+          subtitle="Guadalupe Mountains National Park, Texas"
+          peopleJoined="50+ Joined"
+        />
+        <CampSite
+          backgroundImage="bg-bg-img-4"
+          title="Yellow Stone Camp Site"
+          subtitle="Yellow Stone National Park, Wyoming"
+          peopleJoined="50+ Joined"
+        />
 
         {/* Left Arrow */}
         <div className="absolute flex items-start mt-[170px] sm:mt-[190px] lg:items-center lg:mt-0 h-full left-0 top-0 z-50">

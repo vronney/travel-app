@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
-  { href: "/", key: "how_hilink_work", label: "How TrekNest Work?" },
+  { href: "/", key: "how_TrexNest_work", label: "How TrekNest Work?" },
   { href: "/", key: "services", label: "Services" },
   { href: "/", key: "pricing ", label: "Pricing " },
   { href: "/", key: "contact_us", label: "Contact Us" },
@@ -29,7 +29,7 @@ export const FEATURES = [
     icon: "/calendar.svg",
     variant: "green",
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Schedule an adventure with friends. On holidays, there are many interesting offers from TrexNest. That way, there's no more discussion",
   },
   {
     title: "Technology using augment reality",
@@ -52,7 +52,7 @@ export const FOOTER_LINKS = [
   {
     title: "Learn More",
     links: [
-      "About Hilink",
+      "About TrexNest",
       "Press Releases",
       "Environment",
       "Jobs",
@@ -62,7 +62,7 @@ export const FOOTER_LINKS = [
   },
   {
     title: "Our Community",
-    links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
+    links: ["Climbing xixixi", "Hiking TrexNest", "TrexNest kinthill"],
   },
 ];
 
@@ -70,7 +70,7 @@ export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
     { label: "Admin Officer", value: "123-456-7890" },
-    { label: "Email Officer", value: "hilink@akinthil.com" },
+    { label: "Email Officer", value: "TrexNest@akinthil.com" },
   ],
 };
 
